@@ -1,7 +1,7 @@
 # Site-wide settings
 # ------------------
 #
-title: Your awesome title
+title: This and that, but mostly that
 #
 # author:
 #   name: GitHub User
@@ -9,7 +9,7 @@ title: Your awesome title
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
-description: 'Awesome description'
+description: 'Personal tech blog around AI & product'
 theme: minima
 url: https://mrm1001.github.io
 baseurl: "" 
