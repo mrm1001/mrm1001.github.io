@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+  /* Center figures + their images/captions */
+.post-content .figure {
+  text-align: center;          /* centers inline content */
+  margin: 1rem 0;
+}
+.post-content .figure > img {
+  display: inline-block;       /* ensure centering works even if theme sets block */
+  height: auto;                /* keep aspect ratio */
+  max-width: 100%;
+}
+.post-content .figure > figcaption {
+  margin-top: .4rem;
+  font-size: .9rem;
+  color: #666;
+  text-align: center;
+}
