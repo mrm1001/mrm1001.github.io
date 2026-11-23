@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Maria Mestre
+heading: "Hi, I'm Maria 👋"
 ---
 
 {% include figure.html
