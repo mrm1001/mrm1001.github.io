@@ -1,13 +1,17 @@
 ---
-layout: page
-title: About
 permalink: /about/
+sitemap: false
 ---
-
-{% include figure.html
-   src="/assets/images/about.png"
-%}
-
-I am a senior AI engineer working at an academic publisher. If job titles is your thing 🤓, I've worn many hats in the past: data scientist, AI lead, research NLP engineer, product manager, and even CEO (of my own startup, that is). I intend to write mostly about data science/AI stuff I find interesting, that's the plan anyway 🤭
-
-And the usual disclaimer: This is my personal blog, views are my own.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+  <link rel="canonical" href="{{ '/' | absolute_url }}">
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <p>The about page is now the <a href="{{ '/' | relative_url }}">homepage</a>. Redirecting…</p>
+</body>
+</html>

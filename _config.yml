@@ -12,7 +12,13 @@ title: This and that, but mostly that
 description: 'Personal tech blog around AI & product'
 theme: minima
 url: https://mrm1001.github.io
-baseurl: "" 
+baseurl: ""
+
+# Site navigation. The home page (About) is reached via the site title, so the
+# nav only needs to list the blog index. Add more pages here to grow the nav.
+minima:
+  nav_pages:
+    - blog.md
 
 # Build settings
 # --------------
